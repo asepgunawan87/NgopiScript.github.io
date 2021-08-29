@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <title>My Artikel | Asep Gunawan</title>
+</head>
+
+<body id="home">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Asep Gunawan</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Pengertian CRUD">Pengertian CRUD</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#Penjelasan">Penjelasan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Tutorial">Tutorial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Akhir Navbar -->
+
+  <!-- jumbotron -->
+  <section class="jumbotron text-center">
+    <img src="img/Galeri/fotologo.png" alt="Asep Gunawan" width="550" class="rounded-circle img-thumbnail" />
+    <h2 class="display-4">Membuat CRUD PHP dan Mysql dengan Konsep OOP</h2>
+    <p><a href="http://fst-panca-sakti.ac.id/" class="fw-bold">fst-panca-sakti</a></p>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#0099ff" fill-opacity="1" d="M0,160L120,165.3C240,171,480,181,
+      720,160C960,139,1200,85,1320,58.7L1440,32L1440,320L1320,320C1200,320,960,
+      320,720,320C480,320,240,320,120,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <!-- Akhir Jumbotron -->
+
+  <!-- Pengertian-->
+  <section id="Pengertian CRUD">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>Berikut Pengertian CRUD</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center fs-5 text-center">
+        <div class="col-md-4">
+          <p> CRUD adalah singkatan dari ( Create , Read , Update and Delete ),
+            CRUD merupakan istilah populer pada kalangan back end developer,
+            Keempat poin ini merupakan fungsi-fungsi utama yang diimplementasikan ke dalam aplikasi database.
+            
+            Merupakan poin yang fungsi utamanya diimplementasikan ke dalam aplikasi database. 
+            Akronim CRUD sendiri mengidentifikasi semua fungsi utama yang ada dalam database relasional serta aplikasi yang digunakan untuk mengelolanya. 
+            Termasuk di dalamnya Microsoft SQL Server, Oracle Database, MySQL dan lain-lain.
+            Bagi PHP Developer, CRUD menjadi sebuah pillar untuk mempelajari sebuah proses pengelolaan data dengan menggunakan PHP dan tentunya MySQL database. Dalam hal ini, 
+            CRUD diibaratkan sebuah jalur yang terkoneksi dan terhubung antara bahasa pemrograman PHP dengan MySQL.
+          </p>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#0099ff" fill-opacity="1" d="M0,160L120,165.3C240,171,480,181,
+    720,160C960,139,1200,85,1320,58.7L1440,32L1440,320L1320,320C1200,320,960,
+    320,720,320C480,320,240,320,120,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+
+  <!-- Akhir Pengertian -->
+
+  <!--Penjelasan-->
+  <section id="Penjelasan">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>Penjelasan CRUD</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center fs-5 text-center">
+        <div class="col-md-4">
+          <h3>Create</h3>
+          <p>ini memungkinkanmu membuat record baru dalam database.
+          Dalam aplikasi SQL, fungsi create sering disebut juga sebagai insert
+          Kamu dapat membuat baris baru dan mengisinya dengan data yang sesuai dengan setiap atribut. Tetapi,
+          hanya administrator yang dapat menambahkan atribut baru ke tabel itu sendiri.
+          </p>
+        </div>
+          <div class="col-md-4">
+            <h3>Read</h3>
+            <p>Fungsi read hampir mirip dengan fungsi search.
+            Fungsi ini memungkinkan kamu untuk mencari dan mengambil data tertentu dalam tabel dan membaca nilainya.
+            Kamu dapat menemukan record yang diinginkan menggunakan kata kunci,
+            atau dengan memfilter data berdasarkan kriteria yang diinginkan.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h3>Update</h3>
+            <p>Untuk memodifikasi record yang telah tersimpan di database, fungsi CRUD yang bisa kamu gunakan adalah fungsi update.
+              Namun, kamu perlu mengubah berbagai informasi terkait agar bisa memodifikasi record yang diinginkan secara utuh.
+              Record yang ada dalam database harus diubah dan semua nilai atribut diubah untuk mencerminkan karakteristik baru yang diinginkan.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h3>Delete</h3>
+            <p>Delete
+              Ketika ada record atau data yang tidak lagi dibutuhkan dalam database,
+              fungsi CRUD yang digunakan adalah fungsi delete. Fungsi ini dapat digunakan untuk menghapus data tersebut.
+              Beberapa aplikasi database relasional mungkin mengizinkan kamu untuk melakukan hard delete atau soft delete.
+              Hard delete akan secara menghapus  catatan dari database permanen.
+              Sementara, soft delete hanya akan memperbarui status baris untuk menunjukkan bahwa data telah dihapus meskipun data tersebut tetap ada dan utuh.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--Akhir Penjelasan-->
+
+  <!--Tutorial-->
+  <section id="Tutorial">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>Tutorial</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/Galeri/gmb1_LI.jpg" class="card-img-top" alt="Galeri 1">
+            <div class="card-body">
+              <p class="card-text">Langkah awal pembuatan CRUD php Di Mysql adalah dengan membuat database dan table di XAMPP.
+                Contoh pada gambar.
+                Klik start -> Apache , MySQL -> klik Admin pada Mysql untuk menjalankan PHPMyadmin.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/Galeri/gmb2.jpg" class="card-img-top" alt="Galeri 1">
+            <div class="card-body">
+              <p class="card-text">Kemudian buat nama table sesuaikan dengan tugas anda.
+                contoh pada gambar </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/Galeri/foto3.png" class="card-img-top" alt="Galeri 1">
+            <div class="card-body">
+              <p class="card-text">Setelah anda membuat database, berikutnya kita akan membuat folder projectnya
+                terlebih dahulu, karena dalam contoh ini kita menggunakan Xampp, maka folder project
+                berada di direktori Xampp, dalam contoh ini C:/xampp/htdocs/nama Folder/nama file (folder bebas
+                ya. Yang penting dalam htdocs),Akan ada 4 file
+                yang kita buat kita simpan dalam folder ini antara lain:</p>
+                <p>- index.php</p>
+                <p>- library.php</p>
+                <p>- form_add.php</p>
+                <p>- form_edit.php</p>
+                <p>serta silahkan download file library bootstrap, dialamat <a href="https://drive.google.com/file/d/1PMoCZ1H-iFwklNiR-
+dDTn7k_Hxxms8zy/view?usp=sharing "class="fw-bold">download file</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/Galeri/foto4.png" class="card-img-top" alt="Galeri 1">
+            <div class="card-body">
+              <p class="card-text">Langkah selanjut nya buka text editor kalian,di tutor kali ini saya menggunakan Visual Studio Code,
+                klik File di sisi kiri atas,lalu klik open folder dan pilih forder yang sudah kita siapkan tadi.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/Galeri/foto12.png" class="card-img-top" alt="Galeri 1">
+            <div class="card-body">
+              <p class="card-text">Karena kita akan membuat crud dengan konsep OOP, sehingga perintah yang digunakan
+                untuk berkomunikasi dengan database akan kita letakkan disebuah class, dan akan kita
+                bagi di masing – masing method, class tersebut akan kita buat didalam file library.php
+                yang sebelumnya telah kita buat.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/Galeri/foto11.png" class="card-img-top" alt="Galeri 1">
+            <div class="card-body">
+              <p class="card-text">selanjut nya kita akan buat file index.php
+                contoh pada gambar
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/Galeri/foto9.png" class="card-img-top" alt="Galeri 1">
+            <div class="card-body">
+              <p class="card-text">Membuat form.add untuk form tambah data contah pada gambar.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/Galeri/foto10.png" class="card-img-top" alt="Galeri 1">
+            <div class="card-body">
+              <p class="card-text">yang terakhir kita akan buat form.edit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/Galeri/gmb6.png" class="card-img-top" alt="Galeri 1">
+            <div class="card-body">
+              <p class="card-text">Untuk mengakses file tersebut, anda bisa mengakses alamat : localhost/nama folder/nama file
+               jika sudah berhasil tampilan nya akan seperti gambar di atas.
+              </p>
+            </div>
+          </div>
+        </div>
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <img src="img/Galeri/gmb5.png" class="card-img-top" alt="Galeri 1">
+                <div class="card-body">
+                  <p class="card-text">form tambah data.
+                  </p>
+                </div>
+               </div>
+            </div>
+  </section>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#0099ff" fill-opacity="1" d="M0,160L120,165.3C240,171,480,181,
+    720,160C960,139,1200,85,1320,58.7L1440,32L1440,320L1320,320C1200,320,960,
+    320,720,320C480,320,240,320,120,320L0,320Z">
+    </path>
+  </svg>
+  <!--Akhir Tutorial-->
+
+  <!--Contact-->
+  <section id="Contact">
+    <div class="contrainer">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <p class="card-text-center">Demikian pengenalan/penjelasan CRUD PHP dan Mysql dan membuat CRUD PHP dan Mysql dengan Konsep OOP,serta membuat database di Mysql
+            Semoga bermanfaat jangan lupa kritik dan saran di kolam Contact Me Terimakasih.
+          </p>
+          <img src="img/Galeri/Gunawan.jpeg" alt="Asep Gunawan" width="100" class="rounded-circle img-thumbnail" />
+          <h2>Contact Me</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center fs-5">
+        <div class="col-md-6">
+          <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+            <strong>Asep Gunawan!! </strong>Terimakasih Pesan anda sudah kami terima...
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+          <form name="my-contact-from">
+            <div class="mb-3">
+              <label for="name" class="form-label">Nama Lengkap</label>
+              <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+                <div class="mb-3">
+                  <label for="Pesan" class="form-label">Pesan</label>
+                  <textarea class="form-control" id="Pesan" rows="3" name="pesan"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+
+                <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                  Loading...
+                </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#0099ff" fill-opacity="1" d="M0,160L120,165.3C240,171,480,181,
+    720,160C960,139,1200,85,1320,58.7L1440,32L1440,320L1320,320C1200,320,960,
+    320,720,320C480,320,240,320,120,320L0,320Z">
+    </path>
+  </svg>
+  <!--Akhir Contact-->
+
+  <!--Footer-->
+  <footer class="text-center pd-5 fs-6">
+    <p>Cread By <a href="https://www.youtube.com/channel/UCwBjLb2Ay8sk0p-Zyn-QJ-Q " class="fw-bold">Asep Gunawan.</a>  My Kampus <a href="https://panca-sakti.ac.id/" class="fw-bold">Universitas Panca Sakti</a></p>
+  </footer>
+  <!--Akhir Footer-->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <script>
+
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzpcRr0gj4sa1ffSaAVHqEofar8LSbX-4iincWzAkgrsQurDDFJtTkuo6l8gvFWX21Q/exec';
+      const form = document.forms['my-contact-from'];
+      const btnKirim = document.querySelector('.btn-kirim');
+      const btnLoading = document.querySelector('.btn-loading');
+      const myAlert = document.querySelector('.my-alert');
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault();
+
+        // Saat tombol submit di klik
+        // Tampilkan tombol loading dan hilangkan tombol kirim
+        btnLoading.classList.toggle('d-none');
+        btnKirim.classList.toggle('d-none');
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            //Tampilkan tombol kirim dan hilangkan tombol loading
+            btnLoading.classList.toggle('d-none');
+            btnKirim.classList.toggle('d-none');
+            //Tampilkan alert
+            myAlert.classList.toggle('d-none');
+
+            //Hilangkan isi form
+            form.reset();
+            console.log('Success!', response);
+          })
+          .catch(error => console.error('Error!', error.message));
+      });
+    </script>
+ </body>
+</html>
